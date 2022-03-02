@@ -9,12 +9,12 @@ const AboutMe = () => {
           <p className="getToKnow__p">
             After finishing my studies I decided to go to the UK to improve my
             English while working as a nanny. When I became confident with the
-            language I decided to go into the tourism industry.
-            <br></br>
+            language I decided to go into the tourism industry.<br></br>
+            
              I used the pandemic situation as a challenge to reinvent myself into the
             technology world. I have learned and developed the necessary
-            knowledge to work as a programmer after an intensive boot camp.<br>
-            </br> 
+            knowledge to work as a programmer after an intensive boot camp.<br></br>
+            
             My next goal is to be able to demonstrate my learned skills, improve my
             knowledge and have the opportunity to learn different technologies
             in an exciting and challenging job.

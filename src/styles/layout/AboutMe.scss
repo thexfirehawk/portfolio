@@ -3,12 +3,14 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 700px;
+    height: 100vh;
     background-color: rgb(235, 224, 245);
   @media (min-width:768px){
-    
     height: 500px;
   
+  }
+  @media (min-width: 1024px){
+    height: 600px;
   }
 
   &__title {
@@ -31,11 +33,14 @@
   }
 
   &__p {
-    padding: 20px;
+    
     grid-column: 2/3;
     font-family: sans-serif;
     color: gray;
     line-height: 150%;
+    @media (min-width:768px){
+      padding: 20px;
+    }
   }
 }
 
