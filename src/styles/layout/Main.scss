@@ -6,11 +6,15 @@
 }
 
 .imgContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-
+  padding: 60px;
+  @media (min-width:768px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  
+  }
+  
   &__img {
     border-radius: 200px;
     background-position: center;
@@ -65,9 +69,15 @@
     list-style-type: none;
 
     &--item {
-      width: 15px;
-      height: 15px;
-      margin: 50px;
+      display: none;
+     
+      @media (min-width:768px){
+        display: flex;
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+      }
+      
     }
   }
 }

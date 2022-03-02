@@ -1,14 +1,25 @@
 .getToKnow {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 400px;
-  background-color: rgb(235, 224, 245);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+    background-color: rgb(235, 224, 245);
+  @media (min-width:768px){
+    
+    height: 400px;
+  
+  }
+
   &__title {
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 25px;
     color: gray;
+    @media (min-width:768px){
+      font-size: 20px;
+      margin-top: 20px;
+  
+    }
+   
   }
   &__article {
     padding: 15px;
