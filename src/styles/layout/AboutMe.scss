@@ -7,7 +7,7 @@
     background-color: rgb(235, 224, 245);
   @media (min-width:768px){
     
-    height: 400px;
+    height: 500px;
   
   }
 
@@ -16,7 +16,7 @@
     color: gray;
     @media (min-width:768px){
       font-size: 20px;
-      margin-top: 20px;
+   
   
     }
    
@@ -44,24 +44,7 @@ $container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
 $gutter: 30px;
 $border-width: 4px;
 $dot-diameter: 8px;
-/*
-body {
-  background: linear-gradient(55deg,#4E75B9 30%,#5CBF98 90%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100vw;
-  margin: 0;
-  padding: 12vh 100px;
-  font-family: 'Source Sans Pro', arial, sans-serif;
-  font-weight: 300;
-  color: #333;
-  box-sizing: border-box;
-  * {
-    box-sizing: border-box;
-  }
-}*/
+
 
 .title {
   margin: 20px;
