@@ -1,0 +1,74 @@
+
+
+.main {
+  background-color: #fff;
+  height: 90vh;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  &__img {
+    border-radius: 200px;
+    background-position: center;
+    object-fit: cover;
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    gap: 20px;
+    color: rgb(160, 159, 159);
+    
+    
+  }
+}
+
+.container-buttom {
+  @media (min-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.link_download {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.downpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.techStack {
+  &__list {
+    display: flex;
+    list-style-type: none;
+
+    &--item {
+      width: 15px;
+      height: 15px;
+      margin: 50px;
+    }
+  }
+}
+

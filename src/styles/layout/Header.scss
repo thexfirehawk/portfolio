@@ -1,0 +1,26 @@
+.header {
+    //height: 100vh;
+    max-width: 100%;
+    background-image: url(../../images/LINKEDIN.jpg);
+    background-size: cover;
+    background-position: center;}
+
+.navHeader {
+  &__ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+    &--item {
+      padding: 20px;
+      font-weight: bold;
+      font-size: 15px;
+      color: #eee4da;
+      text-decoration: none;
+      @media (min-width:768px){
+          font-size: 20px;
+          color: #eee4da;
+      }
+    }
+  }
+}

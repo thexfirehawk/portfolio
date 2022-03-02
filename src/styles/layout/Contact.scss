@@ -1,0 +1,121 @@
+@mixin input {
+  height: 45px;
+  font-size: 16px;
+  border: 1px solid gray;
+  padding: 11px 0 15px 15px;
+}
+.container_form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 290px;
+  gap: 5px;
+
+  @media (min-width: 768px) {
+    width: 442px;
+    margin-left: 163px;
+    margin-right: 163px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    margin-left: 299px;
+    margin-right: 299px;
+  }
+
+  &__label {
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    padding-bottom: 7px;
+    margin-top: 13px;
+    font-size: 16px;
+  }
+
+  &__input {
+    @include input;
+  }
+
+  &__together {
+    @media all and (min-width: 1200px) {
+      display: flex;
+    }
+
+    @media all and (min-width: 1200px) {
+      width: 395px;
+      margin-right: 22px;
+    }
+  }
+}
+
+.label_block {
+  display: block;
+  padding-bottom: 7px;
+}
+
+.span_contact {
+  color: gray;
+}
+
+.textarea {
+  display: flex;
+  flex-direction: column;
+  height: 105px;
+  padding: 11px 0 15px 15px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+
+.container-button__item {
+  background-color: rgb(203, 181, 223);
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  height: 45px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(206, 199, 212);
+
+  }
+
+  @media (min-width: 768px) {
+    height: 45px;
+    width: 206px;
+  }
+}
+
+.container-buttom {
+  @media (min-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+
+.icons {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+  }
+  &__item {
+    width: 35px;
+    height: 35px;
+    
+    
+  }
+}
