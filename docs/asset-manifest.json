@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.d0035543.css",
+    "main.js": "./static/js/main.4c56458e.js",
+    "static/media/foto.png": "./static/media/foto.9513c5e0e7229ef99542.png",
+    "static/media/LINKEDIN.jpg": "./static/media/LINKEDIN.da3715b82d5a9684a1f6.jpg",
+    "static/media/css.png": "./static/media/css.aab94d777ccd3c884252.png",
+    "static/media/sass.png": "./static/media/sass.3d1572ff49adc3fc007a.png",
+    "static/media/github-brands.svg": "./static/media/github-brands.32216578adb0a25d57f290506e83464c.svg",
+    "static/media/linkedin-brands.svg": "./static/media/linkedin-brands.1e512f6d1db7c4597439e2a6ee15f921.svg",
+    "static/media/phone-solid.svg": "./static/media/phone-solid.66f8beeca1704ee6c68b10b90e9a1920.svg",
+    "static/media/envelope-solid.svg": "./static/media/envelope-solid.70ec466b9451d3617153ee951ccd9c74.svg",
+    "index.html": "./index.html",
+    "main.d0035543.css.map": "./static/css/main.d0035543.css.map",
+    "main.4c56458e.js.map": "./static/js/main.4c56458e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0035543.css",
+    "static/js/main.4c56458e.js"
+  ]
+}
