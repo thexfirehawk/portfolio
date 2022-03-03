@@ -32,39 +32,25 @@ const MainPart = () => {
         </article>
       </div>
 
-      <div className="downpart">
-        <div className="techStack">
-          <ul className="techStack__list">
-            <li className="techStack__list--item">
-              <img src={js} alt="Javascript"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={react} alt="React"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={git} alt="Git"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={gulp} alt="Gulp"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={sass} alt="Sass"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={html} alt="Html"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={css} alt="Css"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={node} alt="Node"></img>
-            </li>
-            <li className="techStack__list--item">
-              <img src={npm} alt="npm"></img>
-            </li>
-          </ul>
+      <div className="skills">
+        <ul className="skills__list">
+            <li className="skills__list--item">React</li>
+            <li className="skills__list--item">JavaScript</li>
+            <li className="skills__list--item">Node.js</li>
+            <li className="skills__list--item">Git</li>
+            <li className="skills__list--item">Express.js</li>
+            <li className="skills__list--item">Template Engine .ejs</li>
+            <li className="skills__list--item">HTML</li>
+            <li className="skills__list--item">CSS</li>
+            <li className="skills__list--item">Sass</li>
+            <li className="skills__list--item">GitHub</li>
+            <li className="skills__list--item">Slack</li>
+            <li className="skills__list--item">SQL</li>
+            <li className="skills__list--item">SQLite</li>
+            <li className="skills__list--item">Heroku</li > 
+            <li className="skills__list--item">Zeplin</li>
+        </ul>
         </div>
-      </div>
     </main>
   );
 };
