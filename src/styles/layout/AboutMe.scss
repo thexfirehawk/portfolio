@@ -6,8 +6,9 @@
 
   &__title {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
     @media (min-width: 768px) {
       font-size: 20px;
@@ -22,17 +23,17 @@
   }
 
   &__p {
+    font-size: 15px;
     align-items: center;
-    text-align: center;
-    grid-column: 2/3;
-    font-family: sans-serif;
-    color: gray;
-    line-height: 150%;
-    @media (min-width: 768px) {
-      padding: 20px;
-    }
+      text-align: center;
+      grid-column: 2/3;
+      font-family: sans-serif;
+      color: gray;
+      line-height: 150%;
+      padding-bottom: 30px;
   }
 }
+
 
 $container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
 
