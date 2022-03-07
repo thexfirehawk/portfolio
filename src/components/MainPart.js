@@ -1,23 +1,19 @@
 import thisIsme from "../images/foto.png";
-import css from "../images/css.png";
-import git from "../images/git.png";
-import gulp from "../images/gulp.png";
-import html from "../images/html.png";
-import node from "../images/nodejs.png";
-import react from "../images/react.png";
-import sass from "../images/sass.png";
-import js from "../images/js.png";
-import npm from "../images/npm.png";
 import "../styles/layout/Main.scss";
 
+import Position from './Position'
+
+
+
 const MainPart = () => {
+ 
   return (
     <main className="main">
       <div className="imgContainer">
         <img className="imgContainer__img" src={thisIsme} alt="this is me" />
         <article className="imgContainer__titles titles">
-          <p>Hi, my name is Marta!</p>
-          <p>Front-end developer</p>
+         <p>Hi! My name is Marta</p>
+          <Position text={'Front-end developer'}/>
 
           <div className="div_download container-button__item">
             <a
