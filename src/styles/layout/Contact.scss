@@ -1,9 +1,7 @@
-@mixin input {
-  height: 45px;
-  font-size: 16px;
-  border: 1px solid gray;
-  padding: 11px 0 15px 15px;
-}
+@import "../core/Mixins.scss";
+@import "../core/Variables.scss";
+
+
 .container_form {
   display: flex;
   justify-content: center;
@@ -31,7 +29,7 @@
 
   &__label {
     font-size: 14px;
-    color: gray;
+    color: $mainTextColor;
     width: 100%;
     padding-bottom: 7px;
     margin-top: 13px;
@@ -60,7 +58,7 @@
 }
 
 .span_contact {
-  color: gray;
+  color: $mainTextColor;
 }
 
 .textarea {
@@ -69,11 +67,11 @@
   height: 105px;
   padding: 11px 0 15px 15px;
   font-size: 16px;
-  border: 1px solid gray;
+  border: 1px solid $mainTextColor;
 }
 
 .container-button__item {
-  background-color: rgb(203, 181, 223);
+  background-color: $buttonDownloadCV;
   text-transform: uppercase;
   color: white;
   border: 0;

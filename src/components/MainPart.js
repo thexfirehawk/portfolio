@@ -1,6 +1,5 @@
 import thisIsme from "../images/foto.png";
 import "../styles/layout/Main.scss";
-
 import Position from './Position'
 
 

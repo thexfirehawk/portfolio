@@ -1,15 +1,18 @@
+@import "../core/Variables";
+
+
 .getToKnow {
   object-fit: contain;
   width: 100%;
   height: 100%;
-  background-color: rgb(235, 224, 245);
+  background-color:$getToknowBackgroundColor ;
 
   &__title {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
     font-size: 20px;
-    color: gray;
+    color: $mainTextColor;
     @media (min-width: 768px) {
       font-size: 20px;
     }
@@ -28,7 +31,7 @@
       text-align: center;
       grid-column: 2/3;
       font-family: sans-serif;
-      color: gray;
+      color: $mainTextColor;
       line-height: 150%;
       padding-bottom: 30px;
       padding-left: 30px;
@@ -37,29 +40,24 @@
 }
 
 
-$container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
 
-$gutter: 30px;
-$border-width: 4px;
-$dot-diameter: 8px;
 
 .title {
   margin: 20px;
-  color: gray;
+  color: $mainTextColor;
   text-align: center;
 }
 
 .timeline {
   width: 100%;
   position: relative;
-  //box-shadow: $container-shadow;
-  background: #fff;
+  background: $mainWhiteColor;
   margin-top: 50px;
   margin-bottom: 50px;
   &__titles {
-    color: #565656;
+    color: $timelineTitles;
     &--descr {
-      color: #565656;
+      color: $timelineTitles;
     }
   }
 
@@ -67,10 +65,10 @@ $dot-diameter: 8px;
     content: "";
     position: absolute;
     top: 0px;
-    left: calc(33% + 15px); //$gutter/2
+    left: calc(33% + 15px); 
     bottom: 0px;
     width: $border-width;
-    background: #ddd;
+    background: $timelineLine;
   }
   &:after {
     content: "";
@@ -96,8 +94,8 @@ $dot-diameter: 8px;
       position: absolute;
       width: $dot-diameter;
       height: $dot-diameter;
-      border: $border-width solid salmon;
-      background-color: #fff;
+      border: $border-width solid $circleTimeline;
+      background-color: $mainWhiteColor;
       border-radius: 100%;
       top: 15%;
       right: -$dot-diameter;
@@ -125,7 +123,7 @@ $dot-diameter: 8px;
       }
     }
     ul {
-      color: #aaa;
+      color: $timelineTasks;
       padding-left: 0;
       list-style-type: none;
       li:before {

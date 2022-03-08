@@ -1,5 +1,7 @@
+@import "../core/Variables.scss";
+
 .main {
-  background-color: #fff;
+  background-color: $mainWhiteColor;
   height: 90vh;
 }
 
@@ -29,7 +31,7 @@
     text-align: center;
     margin-top: 30px;
     gap: 20px;
-    color: rgb(160, 159, 159);
+    color: $mainTitlesColor;
   }
 }
 
@@ -43,7 +45,7 @@
 
 .link_download {
   text-decoration: none;
-  color: white;
+  color: $mainWhiteColor;
   display: flex;
   justify-content: center;
   margin: 15px;
@@ -63,7 +65,7 @@
       display: inline-block;
       margin: 7px;
       padding: 5px 10px;
-      color: gray;
+      color:$mainTextColor;
       background: darken(#f2f2f5, 5%);
       list-style: none;
       cursor: default;
