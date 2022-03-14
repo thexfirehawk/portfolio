@@ -18,7 +18,7 @@ useEffect(() => {
         return () => {
             clearTimeout(timeOutId)
         }
-    }, 500)
+    }, 200)
 }, [position,text])
 return (
     <p>{position}</p>
