@@ -1,0 +1,59 @@
+/*
+====================
+ Generic variables
+ ====================
+*/
+
+// Box-shadows
+$base-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
+
+// Measures
+$spacing__4: 4px;
+$spacing__8: 8px;
+$spacing__12: 12px;
+$spacing__16: 16px;
+$spacing__20: 20px;
+$spacing__24: 24px;
+$spacing__32: 32px;
+
+$gutter: $spacing__32;
+
+// Colors
+$color-white: #fff;
+$color-whiteish: rgb(235, 224, 245);
+$color-whiteish-2: #ddd;
+$color-lightgray: rgb(160, 159, 159);
+$color-lightgray-2: #aaa;
+$color-gray: gray;
+$color-darkgrey: #565656;
+$color-black: #000;
+
+$color-lavender: rgb(203, 181, 223);
+$color-salmon: salmon;
+
+// Fonts
+$font-size-base: 16px;
+
+//Borders
+$border-base: 1px solid $color-gray;
+
+/* 
+====================
+ Specific variables
+===================== 
+*/
+
+$container-shadow: $base-shadow;
+$border-width: $spacing__4;
+$dot-diameter: $spacing__8;
+$getToknowBackgroundColor: $color-whiteish;
+$mainTextColor: $color-gray;
+$mainTitlesColor: $color-lightgray;
+$mainWhiteColor: $color-white;
+$buttonDownloadCV: $color-lavender;
+
+//timeline
+$circleTimeline: $color-salmon;
+$timelineTitles: $color-darkgrey;
+$timelineLine: $color-whiteish-2;
+$timelineTasks: $color-lightgray-2;
